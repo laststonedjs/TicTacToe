@@ -1,0 +1,46 @@
+body {
+    background-size: cover;
+    background-repeat: inherit;
+    font-family: 'Grandstander', cursive;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSblNux2UzuWA48DO7QNpeQkT0ExfucYUYHYg&usqp=CAU');
+}
+
+.wrapper {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    font-size: 26px;
+}
+h1 {
+    font-size: 36px;
+    color: #fca903;
+}
+.game-main {
+    display: grid;
+    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(3,150px);
+
+}
+.cell {
+    border: 1px solid #991f00;
+     border-radius: 3px;
+    font-size: 145px;
+    padding: 10px;
+    color:  #e62e00;
+    background-color: #fff;
+    opacity: .8;
+    
+    
+}
+button {
+   
+    padding: 10px;
+    border: none;
+    background: firebrick;
+    color: white;
+    border-radius: 2px;
+    font-size: 22px;
+
+button:hover {
+    opacity: .6;
+}
